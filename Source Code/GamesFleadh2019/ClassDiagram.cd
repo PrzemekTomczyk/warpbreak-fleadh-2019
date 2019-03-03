@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GameScreen">
+    <Position X="17.75" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="~GameScreen" Hidden="true" />
+      <Method Name="contactListHandler" Hidden="true" />
+      <Method Name="createWorld2D" Hidden="true" />
+      <Method Name="GameScreen" Hidden="true" />
+      <Method Name="getChangeMenu" Hidden="true" />
+      <Field Name="m_aliveObstacles" Hidden="true" />
+      <Field Name="m_changeMenu" Hidden="true" />
+      <Field Name="m_crates" Hidden="true" />
+      <Field Name="m_currentLevel" Hidden="true" />
+      <Field Name="m_enemyHandler" Hidden="true" />
+      <Field Name="m_exits" Hidden="true" />
+      <Field Name="m_firstInit" Hidden="true" />
+      <Field Name="m_hud" Hidden="true" />
+      <Field Name="m_input" Hidden="true" />
+      <Field Name="m_level" Hidden="true" />
+      <Field Name="m_listener" Hidden="true" />
+      <Field Name="m_minimap" Hidden="true" />
+      <Field Name="m_nextState" Hidden="true" />
+      <Field Name="m_obstacles" Hidden="true" />
+      <Field Name="m_options" Hidden="true" />
+      <Field Name="m_particlePool" Hidden="true" />
+      <Field Name="m_phaseWalls" Hidden="true" />
+      <Field Name="m_player" Hidden="true" />
+      <Field Name="m_renderState" Hidden="true" />
+      <Field Name="m_resetting" Hidden="true" />
+      <Field Name="m_resourceMng" Hidden="true" />
+      <Field Name="m_state" Hidden="true" />
+      <Field Name="m_tutorials" Hidden="true" />
+      <Field Name="m_world" Hidden="true" />
+      <Field Name="MAX_OBSTACLES" Hidden="true" />
+      <Field Name="positionIterations" Hidden="true" />
+      <Method Name="resetChangeMenu" Hidden="true" />
+      <Field Name="timeStep" Hidden="true" />
+      <Field Name="velocityIterations" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>CAogAhAAIAoBCBIAAAIEAJVASQIIAIQRBAAJEIgXABA=</HashCode>
+      <FileName>include\GameScreen.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player">
+    <Position X="14.75" Y="2.25" Width="1.5" />
+    <Members>
+      <Method Name="createPunchFixture" Hidden="true" />
+      <Method Name="debugDraw" Hidden="true" />
+      <Field Name="fall" Hidden="true" />
+      <Method Name="getAlive" Hidden="true" />
+      <Method Name="getB2Body" Hidden="true" />
+      <Method Name="getChargeScale" Hidden="true" />
+      <Method Name="getFrameHeight" Hidden="true" />
+      <Method Name="getFrameWidth" Hidden="true" />
+      <Method Name="getHasOrb" Hidden="true" />
+      <Method Name="getLives" Hidden="true" />
+      <Method Name="getOrbCooldown" Hidden="true" />
+      <Method Name="getPos" Hidden="true" />
+      <Method Name="handleOrb" Hidden="true" />
+      <Method Name="handlePunching" Hidden="true" />
+      <Method Name="handleSpriteFacingDirection" Hidden="true" />
+      <Field Name="idle" Hidden="true" />
+      <Method Name="isFacingLeft" Hidden="true" />
+      <Method Name="isPunching" Hidden="true" />
+      <Field Name="jump" Hidden="true" />
+      <Field Name="JUMP_VELO" Hidden="true" />
+      <Method Name="loseLife" Hidden="true" />
+      <Field Name="m_b2body" Hidden="true" />
+      <Field Name="m_controller" Hidden="true" />
+      <Field Name="m_facingLeft" Hidden="true" />
+      <Field Name="m_font" Hidden="true" />
+      <Field Name="m_hasOrb" Hidden="true" />
+      <Field Name="m_isPunching" Hidden="true" />
+      <Field Name="m_landSound" Hidden="true" />
+      <Field Name="m_lives" Hidden="true" />
+      <Field Name="m_options" Hidden="true" />
+      <Field Name="m_orb" Hidden="true" />
+      <Field Name="m_orbCooldown" Hidden="true" />
+      <Field Name="m_orbDelay" Hidden="true" />
+      <Field Name="m_particlePool" Hidden="true" />
+      <Field Name="m_punchCooldown" Hidden="true" />
+      <Field Name="m_punchFixture" Hidden="true" />
+      <Field Name="m_resourceMng" Hidden="true" />
+      <Field Name="m_stepSound" Hidden="true" />
+      <Field Name="m_userData" Hidden="true" />
+      <Field Name="m_warpSound" Hidden="true" />
+      <Field Name="m_world" Hidden="true" />
+      <Field Name="MASS" Hidden="true" />
+      <Field Name="MAX_FRAMES" Hidden="true" />
+      <Field Name="MAX_SPEED" Hidden="true" />
+      <Method Name="Player" Hidden="true" />
+      <Method Name="playLanding" Hidden="true" />
+      <Method Name="playStep" Hidden="true" />
+      <Field Name="punch" Hidden="true" />
+      <Field Name="run" Hidden="true" />
+      <Method Name="setAirborn" Hidden="true" />
+      <Method Name="setAlive" Hidden="true" />
+      <Method Name="setAnimRect" Hidden="true" />
+      <Method Name="setB2Body" Hidden="true" />
+      <Method Name="setHasOrb" Hidden="true" />
+      <Method Name="setLives" Hidden="true" />
+      <Method Name="setPos" Hidden="true" />
+      <Method Name="setStartPos" Hidden="true" />
+      <Method Name="setupPlayer" Hidden="true" />
+      <Method Name="setUserData" Hidden="true" />
+      <Field Name="SIZE" Hidden="true" />
+      <Field Name="SPEED" Hidden="true" />
+      <Field Name="STARTING_POS" Hidden="true" />
+      <Method Name="step" Hidden="true" />
+      <Method Name="teleportPlayer" Hidden="true" />
+      <Field Name="TIME_PER_FRAME" Hidden="true" />
+      <Method Name="updateSize" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>IaAGJgCCIiCBTldJgkDFA2AUITEogICRACCQUYJ1AgA=</HashCode>
+      <FileName>include\Player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimatedSprite">
+    <Position X="13.75" Y="6.25" Width="1.5" />
+    <Members>
+      <Method Name="~AnimatedSprite" Hidden="true" />
+      <Method Name="AnimatedSprite" Hidden="true" />
+      <Method Name="getClock" Hidden="true" />
+      <Method Name="getCurrentFrame" Hidden="true" />
+      <Method Name="getFrame" Hidden="true" />
+      <Method Name="getFrames" Hidden="true" />
+      <Method Name="getOffset" Hidden="true" />
+      <Method Name="getTime" Hidden="true" />
+      <Method Name="setLooping" Hidden="true" />
+      <Method Name="setOffset" Hidden="true" />
+      <Method Name="setTime" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ABAAAAAFCBCAAAAiAAAAAIAICBAAIAAAIAAAAAEcAAg=</HashCode>
+      <FileName>include\AnimatedSprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ResourceManager">
+    <Position X="19.25" Y="4" Width="1.5" />
+    <Members>
+      <Method Name="~ResourceManager" Hidden="true" />
+      <Method Name="getBuffer" Hidden="true" />
+      <Method Name="getFont" Hidden="true" />
+      <Method Name="getTexture" Hidden="true" />
+      <Method Name="loadBuffers" Hidden="true" />
+      <Method Name="loadFonts" Hidden="true" />
+      <Method Name="loadTextures" Hidden="true" />
+      <Method Name="ResourceManager" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAARAAAAkAAAAAAkAAAAAAAAABIAAAACAAMAAA=</HashCode>
+      <FileName>include\ResourceManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xbox360Controller">
+    <Position X="21" Y="4" Width="1.5" />
+    <Members>
+      <Method Name="~Xbox360Controller" Hidden="true" />
+      <Field Name="dpadThreshhold" Hidden="true" />
+      <Field Name="s_noOfControllers" Hidden="true" />
+      <Field Name="sf_Joystick_index" Hidden="true" />
+      <Method Name="Xbox360Controller" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AFAACAAAACEAAAAAgAAAQAAAAAAAAABCAAAAAAAEAAA=</HashCode>
+      <FileName>include\XBOX360CONTROLLER.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="tinyfsm::Fsm&lt;F&gt;">
+    <Position X="15.75" Y="6.25" Width="1.5" />
+    <Members>
+      <Method Name="state" Hidden="true" />
+      <Method Name="transit" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEACAAAAAgAIAAAAAAAAACAAAEBAAAAEAIAAA=</HashCode>
+      <FileName>include\tinyfsm.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,32 @@
+player:
+   position: {x: 1894, y: 707}
+   rotation: true
+obstacles: 
+   - size: {x: 1600, y: 64}
+     position: {x: 1120, y: 32}
+   - size: {x: 1920, y: 320}
+     position: {x: 960, y: 920}
+   - size: {x: 640, y: 768}
+     position: {x: 320, y: 704}
+   - size: {x: 64, y: 320}
+     position: {x: 32, y: 160}
+   - size: {x: 640, y: 512}
+     position: {x: 1600, y: 256}
+   - size: {x: 128, y: 64}
+     position: {x: 704, y: 480}
+crates:
+exits:
+   - size: {x: 4, y: 288}
+     position: {x: 1924, y: 656}	
+     playerStartPos: {x: 28, y: 256}
+     leadToLevel: 4
+   - size: {x: 256, y: 4}
+     position: {x: 192, y: 0}
+     playerStartPos: {x: 416, y: 952}
+     leadToLevel: 2
+enemies: 
+phaseWall: 
+   - size: {x: 64, y: 192}
+     position: {x: 704, y: 640}
+     direction: {x: 15, y: 0}
+     duration: 3
