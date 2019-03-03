@@ -63,7 +63,7 @@ Player::Player(ResourceManager & t_resources, Input & t_input, Xbox360Controller
 	//------------------Punch-----------------------
 	fsm.getPunchRef()->setTexture(m_resourceMng.getTexture(TextureID::PLAYER_PUNCH));
 	setAnimRect(*fsm.getPunchRef(), 20, 11, 128, 128, 0);
-	fsm.getPunchRef()->setTime(Time(seconds(1.0f / 30.0f)));
+	fsm.getPunchRef()->setTime(Time(seconds(1.0f / 60.0f)));
 	fsm.getPunchRef()->setOrigin(128 / 2, 128 / 2);
 	fsm.getPunchRef()->setOffset(sf::Vector2f(-15, -10));
 	fsm.getPunchRef()->setLooping(true);

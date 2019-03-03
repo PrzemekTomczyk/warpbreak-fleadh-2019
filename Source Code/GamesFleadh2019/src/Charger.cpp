@@ -161,7 +161,7 @@ void Charger::handleCharge(b2World &t_world)
 	else
 	{
 		//check if hit wall with shielder
-		if ((distanceOfRay <= (rayLength * 0.01f + m_resourceMng.getTexture(TextureID::SHIELDER).getSize().x)) && m_wallTimer <= 0.0f)
+		if ((distanceOfRay <= (rayLength * 0.01f + (32.0f * 2.0f))) && m_wallTimer <= 0.0f)
 		{
 			slammedWall = true;
 		}
